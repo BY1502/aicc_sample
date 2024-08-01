@@ -1,0 +1,12 @@
+*{margin:0; padding:0; box-sizing: border-box;}
+
+.header, .footer, .section{width:100%; height:auto; padding:1rem 0; background:lightcoral; text-align: center; color:#fff;}
+
+.footer {background:lightgreen;}
+.section{background:lightskyblue;}
+
+.sidebar{width:40%; height:100vh; position:fixed; left:0; top:0; background:#212121; color:#fff; display:flex; flex-direction: column; justify-content: space-between; align-items: center; padding:1.5rem 0;}
+
+.sidebar li{margin-bottom:0.5rem; list-style: none;}
+
+.sidebar a{color:#fff; text-decoration: none;}
